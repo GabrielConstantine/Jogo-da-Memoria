@@ -1,0 +1,265 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/background-login.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 65vh;
+    width: 65vh;
+    background-color: #be5151;
+    border: 4px solid #000000;
+    border-radius: 5px;
+}
+
+.login__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.login__header img {
+    width: 120px;
+}
+
+.login__header h1 {
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.login__input {
+    border: 3px solid #000000;
+    border-radius: 8px;
+    color: #be5151;
+    font-size: 1em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.login__button {
+    background-color: #a80d0d;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+}
+
+.login__button:disabled {
+    background-color: #ac5757;
+    color: #000000;
+    cursor: auto;
+}
+
+@media screen and (max-width: 920px)  {
+    body {
+        display: flex;
+        justify-content: center; 
+        align-items: flex-start;
+        background-image: url('../img/background-login-responsive.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .login-form {
+        height: 48vh;
+        width: 40vh;
+        margin-top: 45px;
+        background-color: #636363;
+        border: 4px solid #fff;
+    }
+
+    .login__header h1 {
+        color: #000000;
+        font-size: 1.4em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .login__input {
+        font-size: 1em;
+        margin-bottom: 15px;
+        max-width: 320px;
+        outline: none;
+        text-align: center;
+        padding: 10px;
+        color: #000000;
+    }
+    
+    .login__button {
+        font-size: 1.5em;
+        margin-bottom: 0px;
+        max-width: 320px;
+        padding: 10px;
+    }
+    
+    .login__button:disabled {
+        background-color: #c2c2c2;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        display: flex;
+        justify-content: center; 
+        align-items: flex-start;
+        background-image: url('../img/background-login-responsive.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .login-form {
+        height: 48vh;
+        width: 40vh;
+        margin-top: 40px;
+        background-color: #636363;
+        border: 4px solid #fff;
+    }
+
+    .login__header h1 {
+        color: #000000;
+        font-size: 1.25em;
+        margin-bottom: 30px;
+    }
+
+    .login__input {
+        font-size: 1em;
+        margin-bottom: 15px;
+        max-width: 300px;
+        outline: none;
+        text-align: center;
+        padding: 10px;
+        color: #000000;
+    }
+    
+    .login__button {
+        font-size: 1.3em;
+        margin-bottom: 0px;
+        max-width: 300px;
+        padding: 10px;
+    }
+    
+    .login__button:disabled {
+        background-color: #c2c2c2;
+    }
+}
+
+@media screen and (max-width:375px) {
+    body {
+        display: flex;
+        justify-content: center; 
+        align-items: flex-start;
+        background-image: url('../img/background-login-responsive.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .login-form {
+        height: 50vh;
+        width: 45vh;
+        margin-top: 45px;
+        background-color: #636363;
+        border: 4px solid #fff;
+    }
+
+    .login__header h1 {
+        color: #000000;
+        font-size: 1.2em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .login__header img {
+        width: 80px;
+    }
+
+    .login__input {
+        font-size: 14px;
+        margin-bottom: 15px;
+        max-width: 280px;
+        outline: none;
+        text-align: center;
+        padding: 10px;
+        color: #000000;
+    }
+    
+    .login__button {
+        font-size: 1em;
+        margin-bottom: 0px;
+        max-width: 280px;
+        padding: 10px;
+    }
+    
+    .login__button:disabled {
+        background-color: #c2c2c2;
+    }
+}
+
+@media screen and (max-width: 920px) and (min-height:1000px)  {
+    body {
+        display: flex;
+        justify-content: center; 
+        align-items: flex-end;
+        background-image: url('../img/background-login-responsive2.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .login-form {
+        height: 35vh;
+        width: 32vh;
+        margin-bottom: 300px;
+        background-color: #636363;
+        border: 4px solid #fff;
+    }
+
+    .login__header h1 {
+        color: #000000;
+        font-size: 1.65em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .login__input {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        max-width: 380px;
+        outline: none;
+        text-align: center;
+        padding: 15px;
+        color: #000000;
+    }
+    
+    .login__button {
+        font-size: 1.5em;
+        margin-bottom: 0px;
+        max-width: 380px;
+        padding: 15px;
+    }
+    
+    .login__button:disabled {
+        background-color: #c2c2c2;
+    }
+}
