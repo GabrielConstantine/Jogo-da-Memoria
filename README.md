@@ -56,7 +56,7 @@ Memory-Game/
 
 ## COMO JOGAR?
     # PÁGINA DE LOGIN:
-    ├── Acesse a página: https://gabrielconstantine.github.io/Memory-Game/
+    ├── Acesse a página: https://gabrielconstantine.github.io/Jogo-da-Memoria/
     ├── Insira seu nome no campo "Nome".
     └── Clique no botão "Play" para iniciar o jogo.
 
